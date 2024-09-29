@@ -65,8 +65,8 @@ export const authStore = create<TAuthStore>((set) => ({
 
       // Send to server
       const res2 = await axios.post('/api/verify', { message, signature })
-
       set({ loggedIn: true })
+      console.log(message)
     } catch (err) {}
   },
 }))

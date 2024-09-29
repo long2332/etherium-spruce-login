@@ -15,7 +15,7 @@ export default function Login() {
         </>
       ) : (
         <>
-          <button onClick={s.signin}>Sign in</button>
+          <button onClick={s.signin}>Connect wallet</button>
         </>
       )}
     </div>

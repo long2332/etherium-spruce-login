@@ -26,6 +26,6 @@
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.10",
     "esbuild": "^0.16.12",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.22"
   }
 }
